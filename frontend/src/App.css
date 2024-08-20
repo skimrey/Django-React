@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Audio Player Section */
+#audioPlayer {
+  background-color: #F1F3F4;
+  border-radius: 10px;
+}
+
+/* Carousel Section */
+.carousel .carousel-inner {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+#imageCarousel {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+}
+
+.carousel-indicators li {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.carousel-caption:hover {
+  opacity: 1;
+}
+
+.ekko-lightbox-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-item {
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+
+.video-player {
+  border-radius: 10px;
+}
+
+/* Guiboard Section */
+.guiboard-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #F1F3F4;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: solid;
+  border-color: #F1F3F4;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+/* Modal Adjustments */
+.modal-header,
+.modal-backdrop {
+  display: none !important;
+}
+
+.api {
+  max-width: 100%;
+  margin: auto;
+  height: 87%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: solid;
+  border-color: #F1F3F4;
+  
+}
+
+.btn-danger {
+  margin-left: 23%;
+}
